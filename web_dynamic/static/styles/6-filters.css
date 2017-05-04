@@ -54,10 +54,17 @@ h2, h3, h4 {
 
 .locations h4, .amenities h4 {
     overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 100%;
     padding-top: 15px;
     font-weight: 400;
     font-size: 14px;
     line-height: 0%;
+}
+
+input {
+    margin-right: 10px;
 }
 
 ul {
