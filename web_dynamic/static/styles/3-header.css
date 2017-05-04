@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:70px;
+    width: 100%;
+    border-bottom: solid 1px #cccccc;
+    box-sizing:border-box;
+    background-color: white;
+    background-image:url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: 20px 50%;
+}
+
+header > div {
+    align-self: flex-end;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+    background-color: #cccccc;
+}
+
+.available {
+    background-color: #ff545f;
+}
